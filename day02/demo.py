@@ -1,0 +1,23 @@
+username="张三"
+age=88
+sex="女"
+high=160
+weight=88
+#print("大家好，我叫",username,"，我今年",age,"岁，我为",sex,"性，身高",high,"我的体重",weight,)
+username1="李四"
+age1=84
+sex1="男"
+high1=179
+weight1=66
+#模板
+info = '''
+-------------个人展示----------------
+姓名：{username}
+年龄：{age}岁
+身高：{high}cm
+体重：{weight}kg
+-------------------------------------
+'''
+#数据格式化
+print(info.format(username=username,age=age,high=high,weight=weight))
+print(info.format(username=username1,age=age1,high=high1,weight=weight1))
