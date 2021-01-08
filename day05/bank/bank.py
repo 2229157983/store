@@ -100,8 +100,10 @@ def putmoney():
             print("存款后的余额为：", bank[account]["money"])
         else:
             print("您输入的存款金额不合法")
+        return True
     else:
         print("账号错误！")
+        return False
 
 #取款函数
 def getmoney():
