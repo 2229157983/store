@@ -9,7 +9,6 @@ b.setPassword(123456)
 b.setTime("2021-01-01")
 
 address  = Address()
-a=Address()
 address.setCountry("中国")
 address.setProvince("河北")
 address.setStreet("衡水")

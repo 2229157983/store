@@ -1,4 +1,3 @@
-from bank.address import Address
 class User():
     __account=0
     __name=""
@@ -44,7 +43,6 @@ class User():
         return self.__bankname
 
     def P(self):
-        self.a=Address()
         print(
             "账号：",self.__account,
             "姓名：",self.__name,
